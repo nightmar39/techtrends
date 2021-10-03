@@ -12,7 +12,6 @@ spec:
   helm: 
    valueFiles:
     - values-prod.yaml
-  path: ../helm
-  repoURL: git@github.com:nightmar39/techtrends.git
+  path: ./helm/techtrends
+  repoURL: https://github.com/nightmar39/techtrends.git
   targetRevision: HEAD
-		
